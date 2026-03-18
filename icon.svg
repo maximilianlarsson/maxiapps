@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="55%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#bfdbfe"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+  </defs>
+  <rect width="1024" height="1024" rx="240" fill="url(#bg)"/>
+  <circle cx="180" cy="180" r="180" fill="#38bdf8" opacity="0.25" filter="url(#blur)"/>
+  <circle cx="800" cy="220" r="95" fill="#22c55e" opacity="0.35" filter="url(#blur)"/>
+  <rect x="120" y="120" width="784" height="784" rx="220" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="512" y="610" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif" font-size="360" font-weight="700" fill="url(#shine)">M</text>
+  <circle cx="370" cy="760" r="14" fill="white" opacity="0.8"/>
+  <circle cx="512" cy="760" r="14" fill="white" opacity="0.8"/>
+  <circle cx="654" cy="760" r="14" fill="white" opacity="0.8"/>
+</svg>
